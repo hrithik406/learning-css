@@ -22,7 +22,7 @@ body{
     background-color: var(--clr-light);
     display: flex;
     justify-content: center;
-    align-items: center;
+    
     height: 200vh;
 }
 
@@ -91,6 +91,7 @@ body{
     position: sticky;
     top: 50px;
     width: 75%;
+    z-index: 1;
     color: #0f172a;
     background-color: rgb(255, 0, 0);
 } 
